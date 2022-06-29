@@ -15,7 +15,7 @@ namespace Portafolio.Controllers
 
         public IActionResult Index()
         {
-            return View("Index2");
+            return View();
         }
 
         public IActionResult Privacy()
