@@ -15,9 +15,14 @@ namespace Portafolio.Controllers
 
         public IActionResult Index()
         {
-            ViewBag.Nombre = "Milton Urbina";
-            ViewBag.Edad = 22;
-            return View();
+            var persona = new Persona()
+            {
+                Nombre = "Milton Josue Urbina",
+                Edad = 22
+            };
+            //ViewBag.Nombre = "Milton Urbina";
+            //ViewBag.Edad = 22;
+            return View(persona); //return View("Index", persona); ya no es necesario colocar el index porque no nos vemos obligados a solicitarlo porque no tenemos nada en el mas que persona
         }
 
         public IActionResult Privacy()

@@ -1,10 +1,12 @@
-﻿@{
+﻿@model Persona
+
+@{
     ViewData["Title"] = "Home Page";
 }
 
 <div class="text-center">
-    <h1 class="display-4">Soy @ViewBag.Nombre tengo @ViewBag.Edad años</h1>
-    <h2>Soy un programador con la meta de ser full stack</h2>
+    <h1 class="display-4">Soy @Model.Nombre tengo @Model.Edad años</h1>
+    <h3>Soy un programador con la meta de ser full stack</h3>
     <img id="foto"
          src="~/imagenes/Curriculum Milton Urbina_2.jpg" alt="foto de Milton" />
 </div>
