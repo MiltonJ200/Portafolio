@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "YFuq/WTyZhaLdvtVwe59lAvOjz/7TY0UH+LK5hD9ncE=",
+  "Hash": "yUJbm0LBeLxgWHL0x9vuydzzgg7J2BG3wDuecj4JzZQ=",
   "Source": "Portafolio",
   "BasePath": "_content/Portafolio",
   "Mode": "Default",
@@ -51,6 +51,23 @@
       "OriginalItemSpec": "C:\\Users\\MiltonJ\\source\\repos\\Portafolio\\Portafolio\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Portafolio.bundle.scp.css"
     },
     {
+      "Identity": "C:\\Users\\MiltonJ\\source\\repos\\Portafolio\\Portafolio\\wwwroot\\css\\Custom.css",
+      "SourceId": "Portafolio",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\MiltonJ\\source\\repos\\Portafolio\\Portafolio\\wwwroot\\",
+      "BasePath": "_content/Portafolio",
+      "RelativePath": "css/Custom.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\Custom.css"
+    },
+    {
       "Identity": "C:\\Users\\MiltonJ\\source\\repos\\Portafolio\\Portafolio\\wwwroot\\css\\site.css",
       "SourceId": "Portafolio",
       "SourceType": "Discovered",
@@ -83,6 +100,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\MiltonJ\\source\\repos\\Portafolio\\Portafolio\\wwwroot\\Imagenes\\Curriculum Milton Urbina_2.jpg",
+      "SourceId": "Portafolio",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\MiltonJ\\source\\repos\\Portafolio\\Portafolio\\wwwroot\\",
+      "BasePath": "_content/Portafolio",
+      "RelativePath": "Imagenes/Curriculum Milton Urbina_2.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Imagenes\\Curriculum Milton Urbina_2.jpg"
     },
     {
       "Identity": "C:\\Users\\MiltonJ\\source\\repos\\Portafolio\\Portafolio\\wwwroot\\js\\site.js",
