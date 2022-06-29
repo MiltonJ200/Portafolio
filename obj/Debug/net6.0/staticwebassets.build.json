@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "yUJbm0LBeLxgWHL0x9vuydzzgg7J2BG3wDuecj4JzZQ=",
+  "Hash": "9isvR/UhAcOOLMgUp8bSi3wnEXz+wfHMmnPxIayCL3c=",
   "Source": "Portafolio",
   "BasePath": "_content/Portafolio",
   "Mode": "Default",
@@ -117,6 +117,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Imagenes\\Curriculum Milton Urbina_2.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\MiltonJ\\source\\repos\\Portafolio\\Portafolio\\wwwroot\\Imagenes\\Escritorio_programacion.png",
+      "SourceId": "Portafolio",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\MiltonJ\\source\\repos\\Portafolio\\Portafolio\\wwwroot\\",
+      "BasePath": "_content/Portafolio",
+      "RelativePath": "Imagenes/Escritorio_programacion.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Imagenes\\Escritorio_programacion.png"
     },
     {
       "Identity": "C:\\Users\\MiltonJ\\source\\repos\\Portafolio\\Portafolio\\wwwroot\\js\\site.js",

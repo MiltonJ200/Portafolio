@@ -1,36 +1,62 @@
-﻿@model Persona
-
-@{
+﻿@{
     ViewData["Title"] = "Página Principal";
-    string ConvertirEnMayusculas(String valor)
-    {
-        return valor.ToUpper();
-    }
-    DateTime hoy = DateTime.Now;
-    var nombres = new List<String> { "Milton", " Josue", "Ana" };
-}
+   }
 
 <div class="text-center">
-    <ul>
-        @foreach (var nombre in nombres)
-        {
-            <li>@nombre</li>
-        
-        }
-    </ul>
-    <h1 class="display-4">Soy @ConvertirEnMayusculas(Model.Nombre) tengo @Model.Edad años</h1>   <!-- Podemos utilizar metodos de texto en el nombre .toUpper y .toLower-->
-    <h4>@hoy.ToString("dd/MM/yyyy hh:mm:ss")</h4>
-    @if(Model.Edad >= 18)
-    {
-        <h4>Eres Mayor de edad!<button>Entrar</button></h4>
-    }
-    else
-    {
-        <h4>Eres menor, no puedes entrar</h4>
-    }
-
-
-    <h3>Soy un programador con la meta de ser full stack</h3>
+   
+    <h1 class="display-4">Soy Milton Urbina </h1>   <!-- Podemos utilizar metodos de texto en el nombre .toUpper y .toLower-->
+    
+    <h2>Soy un programador con la meta de ser full stack</h2>
     <img id="foto"
-         src="~/imagenes/Curriculum Milton Urbina_2.jpg" alt="foto de Milton" />
+         src="~/Imagenes/Curriculum Milton Urbina_2.jpg" alt="foto de Milton" />
+</div>
+
+<div class="text-center">
+    <img  id="image-escritorio" 
+    src="~/Imagenes/Escritorio_programacion.png" alt="foto escritorio" />
+</div>
+
+<div class="row justify-content-center text-center bg-primary">
+    <div class="col col-md-7 seccion-bienvenida">
+    <h1> Te doy la bienvenida a portafolio</h1>
+
+    <p>
+        Soy estudiante de la carrera de Ingeniería en sistemas computacionales dedicó 
+        mi tiempo aprendiendo lo básico y avanzado de diferentes lenguajes de programación
+        con la meta de ser full stack.
+    </p>
+
+    </div>
+</div>
+
+<div class="row justify-content-md-allign-content-center text-center">
+    <div class="col col-3 bg-white">
+        <h3>Desarrollo de aplicaciones</h3>
+
+        <p>
+            Trabajo en el desarrollo de aplicaciones en diferentes lenguajes de programacion.
+        </p>
+
+        <p class="text-primary cabecera">
+            Lenguajes;
+        </p>
+
+        <p>
+            Python, Java
+        </p>
+
+        <p class="text-primary cabecera">
+            Experiencia:
+        </p>
+
+        <ul>
+            <li>JavaScript</li>
+            <li>SQL Server</li>
+            <li>Framework Django</li>
+            <li>Boostrap</li>
+            <li>C#</li>
+            <li>Metodo SCRUM</li>
+            <li>Metodo de cascacada</li>
+        </ul>
+    </div>
 </div>

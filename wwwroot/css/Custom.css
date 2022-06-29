@@ -5,3 +5,25 @@
     border: 2px solid Blue;
     
 }
+
+#image-escritorio{
+    width: 500px;
+    margin: 0.1rem 0;
+    
+    
+}
+.seccion-bienvenida{
+    margin: 5rem 0 10rem 0;
+    color: white;
+
+}
+
+.seccion-bienvenida h1{
+    margin-bottom: 1rem;
+}
+
+.seccion-bienvenida p{
+    font-family: sans-serif;
+    line-height: 1.5;
+    font-size: 1.25rem;
+}
